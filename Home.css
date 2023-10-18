@@ -559,7 +559,7 @@ font-size: 3vh;
     margin-left: 30vh;
     display: flex;
     /* border: 1px red solid; */
-    width: 80%;
+    width: 75%;
 }
 .second{
     margin-top: 6vh;
@@ -575,7 +575,7 @@ font-size: 3vh;
 .third{
     height: 52vh;
 }
-.third .first{
+.third .foot{
     color: rgb(190, 188, 188);
 }
 .third .portal img{
@@ -595,7 +595,18 @@ font-size: 3vh;
     margin-left: 0.5vh;
     color: rgb(116, 115, 140);
 }
-
+.ng{
+    margin-top: 3vh;
+    margin-left: 1vh;
+}
+.soc{
+    margin-left: 2vh;
+    margin-top: 4vh;
+}
+.soc  img{
+    width: 4.5vh;
+    height: 4.5vh;
+}
 
 
 
@@ -840,4 +851,7 @@ color: #9E9E9E;
     height: 8.9vh;
     border-radius: 4px;
     border: 1px rgba(46, 84, 234, 1) solid;
+}
+.images{
+    background: none;
 }
