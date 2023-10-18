@@ -521,6 +521,7 @@ marquee{
 }
 
 .start{
+    cursor: pointer;
     font-family: Euclid Square;
     font-weight: 500;
     font-size: 20px;
@@ -534,6 +535,7 @@ marquee{
     border: 1px solid  rgba(46, 84, 234, 1);
 }
 .touch{
+    cursor: pointer;
     font-family: Euclid Square;
     font-weight: 500;
     margin-left: 3vh;
