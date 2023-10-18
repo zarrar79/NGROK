@@ -1,23 +1,25 @@
+
 body{
     margin: 0;
     padding: 0;
 }
+.contain{
+    width: 100%;
+    height: auto;
+}
 .navigation{
     display: flex;
-    justify-content: space-between;
     background-color: #10239E;
+    align-items: center;
     height: 17vh;
 }
 
 .logobtn{
-    padding-top: 2.4%;
     margin-left: 9vh;   
     display: flex;
     width: 90%;
     justify-content: space-between;
-}
-.logobtn{
-color:#FFFFFF;
+    color:#FFFFFF;
 font-weight: bold;
 font-size: 3vh;
 }
@@ -27,7 +29,6 @@ font-size: 3vh;
 .login{
     margin-right: 1vh;
     font-family: Euclid Square;
-    padding: .5vh;
     height: 5.7vh;
     border-radius: 3px;
     border:0px;
@@ -56,10 +57,11 @@ font-size: 3vh;
     height: 108vh;
 }
 .left{
+    /* border: 1px red  solid; */
     font-family: Euclid Square;
 }
 .header{
-    margin-top: 19vh;
+    margin-top: 15vh;
     font-weight: 700;
     font-size: 56px;
     text-align: left;
@@ -472,11 +474,17 @@ font-size: 3vh;
 .image2 img{
     margin-top: 7.6vh;
 }
+.end{
+    padding-top: 7vh;
+}
 .image3 img{
     margin-top: 7.6vh;
 }
 .image4 img{
     margin-top: 7.6vh;
+}
+marquee{
+    margin-top: 9vh;
 }
 .sec4{
     width: 100%;
@@ -509,10 +517,9 @@ font-size: 3vh;
     margin-left: 1.2vh;
 }
 .divtalk .buttons{
-    /* border: 1px red solid; */
     margin-top: 10vh;
-    margin-bottom: 1vh;
 }
+
 .start{
     font-family: Euclid Square;
     font-weight: 500;
@@ -542,7 +549,7 @@ font-size: 3vh;
     border: 1px solid  rgba(240, 245, 255, 1);
 }
 .divtalk{
-    margin-top: 27vh;
+    margin-top: 15vh;
     font-family: Euclid Square;
 }
 .sec5{
