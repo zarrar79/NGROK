@@ -606,6 +606,7 @@ font-size: 3vh;
 .soc  img{
     width: 4.5vh;
     height: 4.5vh;
+    cursor: pointer;
 }
 
 
