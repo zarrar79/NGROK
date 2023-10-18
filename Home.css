@@ -4,9 +4,7 @@ body{
     padding: 0;
 }
 .contain{
-    min-width 100%; ;
-    width: 100%;
-    height: auto;
+    min-width: 100%;
 }
 .navigation{
     display: flex;
@@ -16,7 +14,7 @@ body{
 }
 
 .logobtn{
-    margin-left: 9vh;   
+    margin-left: 16vh;   
     display: flex;
     width: 90%;
     justify-content: space-between;
@@ -26,6 +24,7 @@ font-size: 3vh;
 }
 .buttons{
     height: auto;
+    margin-right: 11.5vh;
 }
 .login{
     margin-right: 1vh;
