@@ -4,6 +4,7 @@ body{
     padding: 0;
 }
 .contain{
+    min-width 100%; ;
     width: 100%;
     height: auto;
 }
